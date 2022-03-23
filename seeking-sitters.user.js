@@ -3,12 +3,13 @@
 // @author         kendallcorner
 // @copyright 2022
 // @license GNU General Public License version 2.0
-// @version        1.1
+// @version        1.2
 // @require https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
 // @include https://www.seekingsitters.com/members/memberrequest
 // ==/UserScript==
 
 const runOnSite = () => {
+    console.log('runOnSite :>> ');
     const tabs = document.getElementsByClassName('nav nav-tabs')
     tabs[1].children[2].children[0].click()
     document.getElementById('ddStartTimeGROUP').value='17:30:00'
@@ -17,4 +18,5 @@ const runOnSite = () => {
     document.getElementById('CommentsToSitterGROUP').value='Vaccinated sitters, please'
 };
 
-waitForKeyElements ('ul li a[href="#Group"]', runOnSite);
+console.log('about to wait :>> ');
+waitForKeyElements('ul li a[href="#Group"]', runOnSite);
