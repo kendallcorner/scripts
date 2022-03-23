@@ -3,7 +3,8 @@
 // @author         kendallcorner
 // @copyright 2022
 // @license GNU General Public License version 2.0
-// @version        1.3
+// @version        1.4
+// @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @require https://gist.githubusercontent.com/BrockA/2625891/raw/9c97aa67ff9c5d56be34a55ad6c18a314e5eb548/waitForKeyElements.js
 // @include https://www.seekingsitters.com/members/memberrequest
 // ==/UserScript==
